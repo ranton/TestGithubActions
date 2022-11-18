@@ -73,4 +73,12 @@
       <password>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</password>
     </server>
   </servers>
+
+	<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>Test Package</name>
+     <url>https://maven.pkg.github.com/ranton/TestGithubActions</url>
+   </repository>
+</distributionManagement>
 </project>
