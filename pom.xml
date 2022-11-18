@@ -42,4 +42,11 @@
 		</plugins>
 	</build>
 
+	<distributionManagement>
+    <repository>      
+      <id>hello-testid1</id>
+      <name>Hello Test Package</name>
+      <url>https://maven.pkg.github.com/ranton/TestGithubActions</url>      
+    </repository>    
+	</distributionManagement>
 </project>
