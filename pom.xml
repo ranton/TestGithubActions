@@ -40,40 +40,13 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</build>
-
-  <profiles>
-    <profile>
-      <id>github</id>
-      <repositories>
-        <repository>
-          <id>central</id>
-          <url>https://repo1.maven.org/maven2</url>
-        </repository>
-        <repository>
-          <id>github</id>
-          <url>https://maven.pkg.github.com/ranton/TestGithubActions</url>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
-        </repository>
-      </repositories>
-    </profile>
-  </profiles>
-
-	<servers>
-    <server>
-      <id>github</id>
-      <username>ranton</username>
-      <password>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</password>
-    </server>
-  </servers>
+	</build>  
 
 	<distributionManagement>
-   <repository>
-     <id>github</id>
-     <name>Test Package</name>
-     <url>https://maven.pkg.github.com/ranton/TestGithubActions</url>
-   </repository>
-</distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub OWNER Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/ranton/TestGithubActions</url>
+		</repository>
+	</distributionManagement>
 </project>
